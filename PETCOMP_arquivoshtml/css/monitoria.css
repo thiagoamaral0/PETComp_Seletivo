@@ -1,0 +1,132 @@
+/* IMPORTAÇÃO DAS FONTES */
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300&family=Shippori+Antique+B1&display=swap');
+/* CARREGA AS FONTES DE TEXTO E UMAS CORES */
+:root{
+	--colorPETCompBlue: #1e90ff;
+	--colorDarkPETCompBlue: #246cb4;
+	--colorquantum: #111111;
+
+	--fonte-destaque: 'Shippori Antique B1', sans-serif;
+	--fonte-secundaria: 'Quicksand', sans-serif;
+}
+/* TIRA AS BORDAS */
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+/* CABEÇALHO */
+header{
+	background-color:var(--colorquantum);
+	min-height: 150px;
+    
+}
+main{
+    background-color: white;
+    margin: 10px;
+    padding: 0px;
+}
+
+nav a{
+	font-family: var(--fonte-destaque);
+	font-size: larger;
+	color: white;
+	text-decoration: none;
+	position: absolute;
+    
+}
+
+#iconePET{
+	position: absolute;
+	top: 28px;
+	left: 50px;
+}
+
+#iconeUFMA{
+	position: absolute;
+	top: 20px;
+	left: 200px;
+}
+a:hover{
+	color:#1e90ff;
+	font-size:125%;
+}
+
+#inicio{
+	top: 57px;
+	left: 500px;
+}
+
+#conheçaoPETCOMP{
+	top: 57px;
+	left: 570px;
+}
+
+#Projetos{
+	top: 57px;
+	left: 790px;
+}
+
+#Publiçoes{
+	top: 57px;
+	left: 890px;
+}
+
+#Noticias{
+	top: 57px;
+	left: 1020px;
+}
+
+#Produtos{
+	top: 57px;
+	left: 1110px;
+}
+
+#Eventos{
+	top: 57px;
+	left: 1210px;
+}
+
+/* FIM DO CABEÇALHO */
+
+main h1{
+    text-align: center;
+    font-family: var(--fonte-destaque);
+}
+
+main h3{
+    max-width: 1000px;
+    text-align: center;
+    font-family: var(--fonte-secundaria);
+    font-size: x-large;
+    margin: 15px 0px;
+    text-align: justify;
+    text-indent: 30px; 
+}
+main h3{
+    
+    margin-left: 160px;
+}
+
+aside img{
+    text-align: center;
+    margin-left: 250px;
+}
+
+
+footer{
+    background-color: #111111;
+    color: white;
+    text-align: center;
+    padding-top: 5px;
+    margin-bottom: 0px;
+    line-height: 2em;
+    font-family: var(--fonte-secundaria);
+    min-height: 160px;
+    padding: 10px;
+}
+footer a{
+	text-decoration: none;
+	color: white;
+	font-family: var(--fonte-secundaria);
+}

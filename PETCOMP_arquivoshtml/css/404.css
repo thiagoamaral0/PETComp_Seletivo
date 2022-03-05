@@ -1,0 +1,26 @@
+/* IMPORTAÇÃO DAS FONTES */
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300&family=Shippori+Antique+B1&display=swap');
+/* CARREGA AS FONTES DE TEXTO E UMAS CORES */
+:root{
+	--colorPETCompBlue: #1e90ff;
+	--colorDarkPETCompBlue: #246cb4;
+	--colorquantum: #111111;
+
+	--fonte-destaque: 'Shippori Antique B1', sans-serif;
+	--fonte-secundaria: 'Quicksand', sans-serif;
+}
+/* TIRA AS BORDAS */
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+h1{
+    font-family: var(--fonte-destaque);
+    font-size:500%;
+}
+h2{
+    font-family: var(--fonte-secundaria);
+    font-size: 200%;
+}
+
